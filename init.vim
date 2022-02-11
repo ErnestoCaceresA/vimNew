@@ -45,6 +45,7 @@ vnoremap > >gv
 source $HOME/.config/nvim/plugins/plugins.vim
 source $HOME/.config/nvim/plugins/plug-config.vim
 source $HOME/.config/nvim/plugins/coc-config.vim
+source $HOME/.config/nvim/plugins/BufOnly.vim
 "--------------------------------Plugins Config--------------------------------------------
 autocmd vimenter * hi Normal guibg=252 ctermbg=233
 "save file
@@ -60,6 +61,8 @@ nmap <leader>so :so%<CR>
 nmap <leader>gs  :CocSearch
 nmap <leader>fs :FZF<CR>
 nmap <leader>rg :Rg<CR>
+nmap <leader>bl :BLines<CR>
+nmap <leader>bu :Buffers<CR>
 
 "configuracion de tabs
 let g:indentLine_enabled = 1
