@@ -67,6 +67,7 @@ nmap <leader>bu :Buffers<CR>
 "configuracion de tabs
 let g:indentLine_enabled = 1
 let g:indentLine_char = '▏'
+" set list listchars=tab:\|\-
 "abrir Nerdtree
 "open nerdtree
 nmap <Leader>e :NERDTreeToggle<CR>

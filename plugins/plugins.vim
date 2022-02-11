@@ -66,6 +66,8 @@ Plug 'justinmk/vim-sneak'
 "envolver algo usando en https://github.com/tpope/vim-surround viene la
 "documentacion de eso
 Plug 'tpope/vim-surround'
+"plugin para styled-components library
+Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 
 
 
