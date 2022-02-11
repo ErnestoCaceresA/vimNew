@@ -6,8 +6,7 @@
     "graphql",
     "html",
     "yaml",
-    "json",
-    "python"
+    "json"
   ],
   "explorer.width": 30,
   "explorer.icon.enableNerdfont": true,
