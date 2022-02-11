@@ -22,6 +22,10 @@ set laststatus=2
 set backspace=2
 set guioptions-=T
 set guioptions-=L
+set foldmethod=indent
+set nowrap "cambia a set wrap si quiero que no se muestren lineas largas"
+syntax enable
+syntax on
 "Get out of insert mode 
 "Salir de modo insertar
 imap jk <Esc>
@@ -40,7 +44,9 @@ vnoremap > >gv
 "-------------------------------Sources-------------------------------
 source $HOME/.config/nvim/plugins/plugins.vim
 source $HOME/.config/nvim/plugins/plug-config.vim
+source $HOME/.config/nvim/plugins/coc-config.vim
 "--------------------------------Plugins Config--------------------------------------------
+autocmd vimenter * hi Normal guibg=252 ctermbg=233
 "save file
 "guardar archivo
 nmap <leader>w :w <CR>

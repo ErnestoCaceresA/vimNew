@@ -42,6 +42,30 @@ Plug 'tpope/vim-rhubarb'
 Plug 'junegunn/gv.vim'
 "Smooth srolling in vim
 Plug 'psliwka/vim-smoothie'
+"for gcc to commet the line
+Plug 'tpope/vim-commentary'
+"for jsx and reactjs development
+Plug 'MaxMEllon/vim-jsx-pretty'
+Plug 'pangloss/vim-javascript'
+Plug 'jelera/vim-javascript-syntax'
+Plug 'elzr/vim-json'
+"jsx para snippets
+Plug 'mattn/emmet-vim'
+" Plug 'SirVer/ultisnips'
+" for vim-prettier
+Plug 'prettier/vim-prettier', {'build': 'npm install'}
+"para previsualizacion de colores muy util para css
+" Plug 'ObserverOfTime/coloresque.vim'
+"para snippets ya realizados por alguien
+Plug 'honza/vim-snippets'
+"para saltar entre parlabras son la tecla s y poniendo un caracter
+Plug 'justinmk/vim-sneak'
+"para seleccionar algun texto en visual y presionando S enseguida de algun
+"texto ya sea } o <p> va a envolver lo seleccionado con eso o tambien sirve
+"sin entrar a modo visual, simplemente en la linea de codigo que queremos
+"envolver algo usando en https://github.com/tpope/vim-surround viene la
+"documentacion de eso
+Plug 'tpope/vim-surround'
 
 
 
