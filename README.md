@@ -22,3 +22,7 @@
 - si sale algun problema con TreeSitter en la compilacion del c++ instalar:
   - sudo apt install g++
   - sudo apt-get install avr-libc
+- si nu funciona el "+y para copiar cosas y pegarlas fuera de la terminal entonces instalar xclip o xsel
+  - sudo apt install xclip
+- tambien instalar esto
+  - sudo apt install python3-neovim
