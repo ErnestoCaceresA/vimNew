@@ -69,6 +69,9 @@ Plug 'tpope/vim-surround'
 "plugin para styled-components library
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 
+"plugin para Ranger(space - r) documenacion: https://www.chrisatmachine.com/Neovim/07-ranger/
+Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+
 
 
 "_____________________________

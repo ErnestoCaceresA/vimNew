@@ -81,3 +81,9 @@ if (has("termguicolors"))
     set termguicolors
     "hi LineNr ctermbg=NONE guibg=NONE
 endif
+
+"ranger config
+" Make Ranger replace netrw and be the file explorer
+let g:rnvimr_ex_enable = 1
+
+nmap <space>r :RnvimrToggle<CR>

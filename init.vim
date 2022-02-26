@@ -30,6 +30,8 @@ syntax on
 "Salir de modo insertar
 imap jk <Esc>
 imap <C-c> <Esc>l
+"mapeos en modo insert
+imap <C-l> <right>
 "mueve bloques de codigo en modo visual o V-Line
 "Moves Blocks of code in visual mode or V-Line 
 xnoremap K :move '<-2<CR>gv-gv 

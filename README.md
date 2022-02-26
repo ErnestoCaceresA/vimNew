@@ -26,3 +26,5 @@
   - sudo apt install xclip
 - tambien instalar esto
   - sudo apt install python3-neovim
+- instalar los componentes necesarios para que funciones el plugin de Ranges (<space>r)
+  - https://www.chrisatmachine.com/Neovim/07-ranger/
