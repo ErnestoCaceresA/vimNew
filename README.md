@@ -28,3 +28,20 @@
   - sudo apt install python3-neovim
 - instalar los componentes necesarios para que funciones el plugin de Ranges (<space>r)
   - https://www.chrisatmachine.com/Neovim/07-ranger/
+
+## instalacion de neovide
+
+https://github.com/neovide/neovide
+
+install the "from source" part cloning the repo and following the instructions
+
+## after follwing the instructions
+
+- move the ./target/release/neovide to the ~/.local/bin folder so you can access the aplication from the terminal
+- https://github.com/neovide/neovide/discussions/812
+
+## instalacion de lazygit
+
+https://github.com/jesseduffield/lazygit
+
+instalar los binarios y mover el archivo lazygit a la carpeta ~/.local/bin/ asi como se hizo con neovide

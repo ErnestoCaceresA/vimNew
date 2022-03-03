@@ -32,6 +32,7 @@ imap jk <Esc>
 imap <C-c> <Esc>l
 "mapeos en modo insert
 imap <C-l> <right>
+imap <C-n> <C-w>
 "mueve bloques de codigo en modo visual o V-Line
 "Moves Blocks of code in visual mode or V-Line 
 xnoremap K :move '<-2<CR>gv-gv 
@@ -65,6 +66,7 @@ nmap <leader>fs :FZF<CR>
 nmap <leader>rg :Rg<CR>
 nmap <leader>bl :BLines<CR>
 nmap <leader>bu :Buffers<CR>
+nmap <leader>p :buffer<space>
 
 "configuracion de tabs
 let g:indentLine_enabled = 1
@@ -78,6 +80,14 @@ nmap <Leader>e :NERDTreeToggle<CR>
 "Buscar dos carácteres con easymotion
 "Search for two chars with easymotion
 nmap <Leader>s <Plug>(easymotion-s2)
+
+"atajo para desplieguez
+nmap <leader>c zR
+nmap <leader>d za
+
+"atajos para movilidad
+nmap <leader>h 0
+nmap <leader>l $
 
 " TAB in general mode will move to text buffer
 " TAB en modo normal se moverá al siguiente buffer
@@ -93,3 +103,13 @@ set termguicolors
 "--------------------------------------------
 let g:closetag_filenames = '*.html,*.xhtml,*.phtml, *.jsx, *.js'
 
+"NEOVIDE CONFIGURATION
+let g:neovide_remember_window_size = v:true
+let g:neovide_cursor_vfx_mode = "railgun"
+set guifont=FiraCode\ Nerd\ Font\ Mono\ Bold:h30
+let g:neovide_cursor_vfx_particle_lifetime=2.2
+let g:neovide_cursor_vfx_particle_density=9.0
+let g:neovide_cursor_vfx_particle_speed=10.0
+let g:neovide_cursor_vfx_particle_curl=1.1
+" set guifont=Hack\ Bold\ Italic:h30
+" set guifont=FiraCode\ Nerd\ Font:h30
