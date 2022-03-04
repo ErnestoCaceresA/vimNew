@@ -106,10 +106,25 @@ let g:closetag_filenames = '*.html,*.xhtml,*.phtml, *.jsx, *.js'
 "NEOVIDE CONFIGURATION
 let g:neovide_remember_window_size = v:true
 let g:neovide_cursor_vfx_mode = "railgun"
-set guifont=FiraCode\ Nerd\ Font\ Mono\ Bold:h30
+set guifont=FiraCode\ Nerd\ Font\ Mono\ Bold:h25
 let g:neovide_cursor_vfx_particle_lifetime=2.2
 let g:neovide_cursor_vfx_particle_density=9.0
 let g:neovide_cursor_vfx_particle_speed=10.0
 let g:neovide_cursor_vfx_particle_curl=1.1
-" set guifont=Hack\ Bold\ Italic:h30
+" set guifont=Hack\ Bold\ Italic:h15
 " set guifont=FiraCode\ Nerd\ Font:h30
+
+
+"FLOATERM PLUGIN CONFIGURATION
+let g:floaterm_width=0.9
+let g:floaterm_height=0.9
+let g:floaterm_wintitle=0
+let g:floaterm_autoclose=1
+let g:floaterm_autoinsert=1
+
+let g:floaterm_keymap_toggle = '<F2>'
+let g:floaterm_keymap_prev = '<F3>'
+let g:floaterm_keymap_next = '<F4>'
+let g:floaterm_keymap_new = '<F5>'
+
+

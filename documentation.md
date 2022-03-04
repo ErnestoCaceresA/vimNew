@@ -21,3 +21,10 @@
   - <leader>h ==> mover hasta el principio de la linea
   - <leader>c ==> desplegar todos los pliegues
   - <leader>d ==> cambiar estado del pliegue actual
+
+## Floaterm
+
+- <F2> ==> toggle floaterminal
+- <F3> ==> previous floaterminal
+- <F4> ==> next floaterminal
+- <F5> ==> new floaterminal
