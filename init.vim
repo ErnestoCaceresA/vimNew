@@ -33,6 +33,7 @@ imap <C-c> <Esc>l
 "mapeos en modo insert
 imap <C-l> <right>
 imap <C-n> <C-w>
+imap <C-h> <left>
 "mueve bloques de codigo en modo visual o V-Line
 "Moves Blocks of code in visual mode or V-Line 
 xnoremap K :move '<-2<CR>gv-gv 
@@ -106,13 +107,15 @@ let g:closetag_filenames = '*.html,*.xhtml,*.phtml, *.jsx, *.js'
 "NEOVIDE CONFIGURATION
 let g:neovide_remember_window_size = v:true
 let g:neovide_cursor_vfx_mode = "railgun"
-set guifont=FiraCode\ Nerd\ Font\ Mono\ Bold:h25
-let g:neovide_cursor_vfx_particle_lifetime=2.2
-let g:neovide_cursor_vfx_particle_density=9.0
-let g:neovide_cursor_vfx_particle_speed=10.0
-let g:neovide_cursor_vfx_particle_curl=1.1
+set guifont=FiraCode\ Nerd\ Font\ Mono\ Bold:h15
+" let g:neovide_cursor_vfx_particle_lifetime=2.2
+" let g:neovide_cursor_vfx_particle_density=9.0
+" let g:neovide_cursor_vfx_particle_speed=10.0
+" let g:neovide_cursor_vfx_particle_curl=1.1
+" let g:neovide_cursor_antialiasing=v:false
+
 " set guifont=Hack\ Bold\ Italic:h15
-" set guifont=FiraCode\ Nerd\ Font:h30
+" set guifont=FiraCode\ Nerd\ Font:h10
 
 
 "FLOATERM PLUGIN CONFIGURATION

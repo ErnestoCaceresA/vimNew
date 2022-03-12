@@ -23,6 +23,16 @@ snippet lt "in line tag snippet" b
 <${1}> ${2} </${1}>
 endsnippet
 
+snippet ct "in line tag with className" b
+<${1} className='${2}'> ${3} </${1}>
+endsnippet
+
+snippet cf "function" b
+const ${1} = () => {
+	${2}
+}
+
+
 # snipet imp
 snippet imp "import snippet" b
 import ${2} from '${1}';

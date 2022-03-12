@@ -24,7 +24,7 @@
 
 ## Floaterm
 
-- <F2> ==> toggle floaterminal
-- <F3> ==> previous floaterminal
-- <F4> ==> next floaterminal
-- <F5> ==> new floaterminal
+- F2 ==> toggle floaterminal
+- F3 ==> previous floaterminal
+- F4 ==> next floaterminal
+- F5 ==> new floaterminal
