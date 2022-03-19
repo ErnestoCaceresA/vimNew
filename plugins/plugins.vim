@@ -49,6 +49,7 @@ Plug 'MaxMEllon/vim-jsx-pretty'
 Plug 'pangloss/vim-javascript'
 Plug 'jelera/vim-javascript-syntax'
 Plug 'elzr/vim-json'
+Plug 'neoclide/vim-jsx-improve'
 "jsx para snippets
 Plug 'mattn/emmet-vim'
 " Plug 'SirVer/ultisnips'

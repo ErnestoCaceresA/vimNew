@@ -28,3 +28,8 @@
 - F3 ==> previous floaterminal
 - F4 ==> next floaterminal
 - F5 ==> new floaterminal
+
+## hacks
+
+- U => seleccionar en modo visual texto despues presionar U mayuscula y cambiara el texto a mayusculas
+- u => seleccionar en modo visual texto despues presionar u minuscula y cambiara el texto a minusculas

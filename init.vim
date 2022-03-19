@@ -107,7 +107,12 @@ let g:closetag_filenames = '*.html,*.xhtml,*.phtml, *.jsx, *.js'
 "NEOVIDE CONFIGURATION
 let g:neovide_remember_window_size = v:true
 let g:neovide_cursor_vfx_mode = "railgun"
-set guifont=FiraCode\ Nerd\ Font\ Mono\ Bold:h15
+let g:neovide_transparency=0.7
+" set guifont=FiraCode\ Nerd\ Font\ Mono:h8
+" set guifont=FreeMono:h8
+set guifont=Hack:h11
+" set guifont=fa-regular-400:h8
+" set guifont=Fira\ Code:h9
 " let g:neovide_cursor_vfx_particle_lifetime=2.2
 " let g:neovide_cursor_vfx_particle_density=9.0
 " let g:neovide_cursor_vfx_particle_speed=10.0
