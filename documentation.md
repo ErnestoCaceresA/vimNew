@@ -11,6 +11,8 @@
 ## Navegacion
 
 - gd ==> nos lleva a la definicion ej. <LoadMore /> presionando ahi nos llevaria al archivo de ese componente osea LoadMore.jsx
+- ctrl + u ==> hace un scroll de 1/2 de la pantalla hacia arriba
+- ctrl + d ==> hace un scroll de 1/2 de la pantalla hacia arriba
 
 ## Custom shurtcuts
 
@@ -21,6 +23,8 @@
   - <leader>h ==> mover hasta el principio de la linea
   - <leader>c ==> desplegar todos los pliegues
   - <leader>d ==> cambiar estado del pliegue actual
+  - <leader>a ==> formatea con coc-prettier el archivo para que lo haga mas rapido presionar enter
+  - ,, ==> convierte las expresiones de emmet (html y jsx) a etiquetas OJO TIENE QUE ESTAR EL CUSOR AL FINAL como por ejemplo .container>h2{hola mundo}
 
 ## Floaterm
 

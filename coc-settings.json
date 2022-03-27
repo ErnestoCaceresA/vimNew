@@ -17,5 +17,35 @@
   },
 
   // ---- snippets stuff -------//
-  "snippets.userSnippetsDirectory": "~/.config/nvim/snippets/ultisnippets"
+  "snippets.userSnippetsDirectory": "~/.config/nvim/snippets/ultisnippets",
+
+  // ---- si se alenta el autocompletado quitar esto -------//
+  "suggest.completionItemKindLabels": {
+    "method": "",
+    "function": "",
+    "variable": "",
+    "field": "",
+    "typeParameter": "<T>",
+    "constant": "ﱢ",
+    "class": "",
+    "interface": "",
+    "struct": "",
+    "event": "",
+    "operator": "",
+    "module": "",
+    "property": "",
+    "enum": "",
+    "reference": "黎",
+    "keyword": "",
+    "file": "",
+    "folder": "",
+    "color": "",
+    "unit": "",
+    "snippet": "",
+    "text": "",
+    "constructor": "",
+    "value": "",
+    "enumMember": "",
+    "default": ""
+  }
 }

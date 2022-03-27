@@ -24,6 +24,9 @@ set guioptions-=T
 set guioptions-=L
 set foldmethod=indent
 set nowrap "cambia a set wrap si quiero que no se muestren lineas largas"
+set so=999 "ESTO ES LO QUE HACE QUE EL CURSOR SIEMPRE PERMANEZCA EN EL MEDIO DE LA PAGINA AL HACER SCROLL"
+" set scrolloff=4  => envez de que se quede en medio el cursor lo deja 4 linea
+" abajo de en medio
 syntax enable
 syntax on
 "Get out of insert mode 
@@ -90,6 +93,9 @@ nmap <leader>d za
 nmap <leader>h 0
 nmap <leader>l $
 
+"atajo para formatOnSaveFiletypes Coc
+nmap <leader>a :Format<CR>
+
 " TAB in general mode will move to text buffer
 " TAB en modo normal se moverá al siguiente buffer
 nnoremap <silent> <TAB> :bnext<CR>
@@ -107,7 +113,7 @@ let g:closetag_filenames = '*.html,*.xhtml,*.phtml, *.jsx, *.js'
 "NEOVIDE CONFIGURATION
 let g:neovide_remember_window_size = v:true
 let g:neovide_cursor_vfx_mode = "railgun"
-let g:neovide_transparency=0.7
+let g:neovide_transparency=0.55
 " set guifont=FiraCode\ Nerd\ Font\ Mono:h8
 " set guifont=FreeMono:h8
 set guifont=Hack:h11

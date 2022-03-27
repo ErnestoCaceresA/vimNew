@@ -7,6 +7,8 @@
 
 "import COC config
 source $HOME/.config/nvim/plugins/coc-config.vim
+source $HOME/.config/nvim/plugins/startify.vim
+
 
 "▄▀█ █ █▀█ █░░ █ █▄░█ █▀▀
 "█▀█ █ █▀▄ █▄▄ █ █░▀█ ██▄
@@ -87,3 +89,12 @@ endif
 let g:rnvimr_ex_enable = 1
 
 nmap <space>r :RnvimrToggle<CR>
+
+" EMMET configuration
+let g:user_emmet_mode='n'
+let g:user_emmet_leader_key=','
+let g:user_emmet_settings={
+\ 'javascript':{
+\ 'extends': 'jsx'
+\ }  
+\ }

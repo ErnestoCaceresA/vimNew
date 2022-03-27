@@ -75,7 +75,12 @@ Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 
 "Plugin para float terminal
 Plug 'voldikss/vim-floaterm'
-
+"Plugin para pantalla inicial y administrador de sesiones
+Plug 'mhinz/vim-startify'
+"previsualizar los colores 
+" Plug 'ObserverOfTime/coloresque.vim'
+" para markdown preview
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npm install'  }
 
 
 "_____________________________
